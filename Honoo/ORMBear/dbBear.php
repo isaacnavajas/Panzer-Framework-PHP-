@@ -1,6 +1,6 @@
 <?php
 
-require_once('./Tank/ORMBear/HelpersBear/passwordEncryption.php');
+require_once('./Honoo/ORMBear/HelpersBear/passwordEncryption.php');
 
 class DbBear extends Kernel {
     private $conn;

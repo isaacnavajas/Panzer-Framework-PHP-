@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pacifico&display=swap');
         
     :root {
-        --color-oso: #384029;
+        --color-oso: #d10e18;
     }
         
     *{
@@ -16,7 +16,7 @@
     }
     
     #qultep{
-        margin-top:90px;
+        margin-top:20px;
         width:270px;
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-require_once './Tank/ORMBear/dbBear.php';
+require_once './Honoo/ORMBear/dbBear.php';
 
 
 class LandingPage{

@@ -1,7 +1,7 @@
 <?php
 $env_file = __DIR__ . '/.env';
 
-require_once('./Tank/kernel.php');
+require_once('./Honoo/kernel.php');
 
 $myAppKernel = new Kernel();
 $myAppKernel->env();
@@ -66,7 +66,7 @@ while (true) {
 function printMenu() {
     global $greenColor, $redColor, $resetColor, $infoColor, $newColor;
     $version = getenv('VERSION');
-    echo "\n🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻\n";
+    echo "\n👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺\n";
     echo "$redColor";
     echo "Welcome to the Framework Installer \n";
     echo "$greenColor";
@@ -121,16 +121,16 @@ function updateQultep() {
 }
 
 function installHelperApiRrest() {
-    echo "\n🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃\n";
+    echo "\n👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺\n";
     //Lógica para instalar el helper ApiRrest
 }
 
 function installHelperDashboards() {
-    echo "\n🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃\n";
+    echo "\n👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺\n";
 }
 
 function help() {
-    echo "\n🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃🍃\n";
+    echo "\n👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺👺\n";
 }
 
 

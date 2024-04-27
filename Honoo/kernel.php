@@ -1,8 +1,8 @@
 <?php
 
-require_once('./Tank/http.php');
+require_once('./Honoo/http.php');
 require_once('./App/Routers/web.php');
-require_once('./Tank/ORMBear/HelpersBear/passwordEncryption.php');
+require_once('./Honoo/ORMBear/HelpersBear/passwordEncryption.php');
 
 class Kernel{
     //Ejecutar la aplicación y la lógica del router

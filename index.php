@@ -10,7 +10,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 /*
-* require_once('./Tank/ORMBear/HelpersBear/passwordEncryption.php');
+* require_once('./Honoo/ORMBear/HelpersBear/passwordEncryption.php');
 *
 * Ejemplo para cifrar la password
 * $key = "este_valor_tiene_que_ser_el_que_devuelve_el_metodo_randomKEY";
@@ -26,7 +26,7 @@ error_reporting(E_ALL);
 */
 
 
-require_once('./Tank/kernel.php');
+require_once('./Honoo/kernel.php');
 
 $myAppKernel = new Kernel();
 $myAppKernel->coreRouter();
