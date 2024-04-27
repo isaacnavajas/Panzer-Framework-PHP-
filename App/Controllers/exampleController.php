@@ -1,13 +1,13 @@
 <?php
 
-require_once './Honoo/ORMBear/dbBear.php';
+require_once './Honoo/ORMHonoo/dbHonoo.php';
 require_once './App/Models/exampleModel.php';
 
 class ExampleController {
     private $db;
 
     public function __construct() {
-        $this->db = new DbBear();
+        $this->db = new DbHonoo();
     }
     
     

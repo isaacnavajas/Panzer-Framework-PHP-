@@ -11,7 +11,7 @@
     <div class="content">
         <center>
             <img src="./App/Public/Src/Tengu.png" alt="qultep" id="qultep">
-            <h1 class="fontBear">Tengu</h1>
+            <h1 class="fontHonoo">Tengu</h1>
             <p>
                 Saludos, soy Isaac Navajas Pozo y estoy desarrollando Tengu, un framework diseñado para ofrecerte una experiencia intuitiva y escalable en el desarrollo de proyectos. Con Tengu, podrás disfrutar de una plataforma fácil de usar que se adapta a cualquier tipo de proyecto. ¡Espero que te entusiasme tanto como a mí!
             </p>
@@ -23,7 +23,7 @@
             <input type="text" id="copiar" value="www.google.es" readonly>
             <a href="" alt="Descargar Qultep" id="boton">Descargar</a>
             <hr>
-            <p class="fontBear">www.isaacnavajaspozo.com/tengu</p>
+            <p class="fontHonoo">www.isaacnavajaspozo.com/tengu</p>
         </center>
     </div>
     <script>

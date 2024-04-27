@@ -1,13 +1,13 @@
 <?php
 
-require_once './Honoo/ORMBear/dbBear.php';
+require_once './Honoo/ORMHonoo/dbHonoo.php';
 
 
 class LandingPage{
     private $db;
 
     public function __construct() {
-        $this->db = new DbBear();
+        $this->db = new DbHonoo();
     }
     
    public function index() {

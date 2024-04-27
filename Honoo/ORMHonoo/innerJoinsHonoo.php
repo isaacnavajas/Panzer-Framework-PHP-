@@ -1,6 +1,6 @@
 <?php
 
-class InnerJoinsBear extends DbBear{
+class InnerJoinsHonoo extends DbHonoo{
     protected $leftTable;
     protected $leftId;
 
@@ -36,16 +36,16 @@ class InnerJoinsBear extends DbBear{
 
 
 /*
-* Ejemplo de innerJoinsBear con dbBear:
+* Ejemplo de innerJoinsHonoo con dbHonoo:
 *
 *
 * tiene que devolver un array para executeQuery
 *
-* require_once './Lodge/ORMBear/DbBear.php';
-* require_once './Lodge/ORMBear/InnerJoinsBear.php';
-* $db = new DbBear();
-* $innerJoinsBear = new InnerJoinsBear('Usuarios', 'usuarios_id');
-* $query = $innerJoinsBear->innerJoin('Post', 'Usuario_id');
+* require_once './Lodge/ORMHonoo/DbBHonoo.php';
+* require_once './Lodge/ORMHonoo/InnerJoinsHonoo.php';
+* $db = new DbHonoo();
+* $innerJoinsHonoo = new InnerJoinsHonoo('Usuarios', 'usuarios_id');
+* $query = $innerJoinsHonoo->innerJoin('Post', 'Usuario_id');
 * $result = $db->executeQuery($query);
 * private function executeQuery($query) {
 *     $result = $this->conn->query($query);
@@ -67,7 +67,7 @@ class InnerJoinsBear extends DbBear{
 
 
 /*
-* Ejemplo de innerJoinsBear:
+* Ejemplo de innerJoinsHonoo:
 *
 *
 * $innerJoin = new InnerJoin('Usuarios', 'usuarios_id');

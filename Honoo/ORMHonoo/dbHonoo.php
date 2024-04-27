@@ -1,8 +1,8 @@
 <?php
 
-require_once('./Honoo/ORMBear/HelpersBear/passwordEncryption.php');
+require_once('./Honoo/ORMHonoo/HelpersHonoo/passwordEncryption.php');
 
-class DbBear extends Kernel {
+class DbHonoo extends Kernel {
     private $conn;
 
     public function __construct() {
@@ -100,7 +100,7 @@ class DbBear extends Kernel {
 }
 
 //Ejemplo:
-//$db = new DbBear('localhost', 'username', 'password', 'database');
+//$db = new DbHonoo('localhost', 'username', 'password', 'database');
 //$rows = $db->select("columna1, columna2", "tabla");
 //foreach ($rows as $row) {
 //    echo $row['columna'] . "<br>";

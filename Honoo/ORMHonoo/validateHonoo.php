@@ -1,6 +1,6 @@
 <?php
 
-class validateBear {
+class validateHonoo {
     public static function validateRequired($data, $fields) {
         foreach ($fields as $field) {
             if (!isset($data[$field]) || empty($data[$field])) {
